@@ -264,7 +264,7 @@ input   scanb_en;
 wire    scanb_soi;
 `endif
 
-wire [7:0]  dptr_hi,
+	wire [7:0]  dptr_hi,   //7位
 	    dptr_lo, 
 	    ri, 
 	    data_out,
