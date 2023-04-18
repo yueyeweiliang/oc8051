@@ -67,6 +67,13 @@
 // synopsys translate_on
 
 `include "oc8051_defines.v"
+module mult_psw();
+
+  
+  
+  
+  
+end module 
 
 
 module oc8051_psw (clk, rst, wr_addr, data_in, wr, wr_bit, data_out, p,
