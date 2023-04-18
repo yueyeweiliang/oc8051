@@ -69,7 +69,8 @@
 `include "oc8051_defines.v"
 
 
-module multi_psw();
+module multi_psw(clk, rst, wr_addr, data_in, wr, wr_bit, data_out, p,
+                cy_in, ac_in, ov_in, set, bank_sel);
 
   oc8051_psw psw1(.clk(clk), .rst(rst), .wr_addr(wr_adr), .data_in(data_in), .wr(wr), .wr_bit(wr_bit), .data_out(data_out), .p(p),
                   .cy_in(cy_in), .ac_in(ac_in), .ov_in(ov_in), .set(set), .bank_sel(bank_sel));
